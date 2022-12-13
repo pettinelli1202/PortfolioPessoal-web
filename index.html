@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfólio</title>
+    <link rel="icon" href="https://i.ibb.co/rpBs1zC/suitcase.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1872f2ca20.js" crossorigin="anonymous"></script>
+    <!-- config style -->
+    <style>
+        .foto-perfil {
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        
+        .corPrimaria {
+            border-radius: 0%;
+            background-color: #0e788a;
+        }
+        
+        .corSecundaria {
+            background-color: #2e2c2a;
+        }
+        
+        p {
+            font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: black !important;
+        }
+        
+        .icones {
+            padding-left: 5px;
+        }
+        
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: white;
+        }
+        
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #0e788a;
+        }
+        
+        .textoBranco {
+            color: white !important;
+        }
+        
+        .jumbotron {
+            margin-bottom: 0px;
+        }
+        
+        .textoFooter {
+            margin: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+</head>
+
+<!-- Area do navbar-->
+
+<body>
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand textoBranco" href="#">Lucas William Pettinelli</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#depoimentos">Depoimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Area central de imagem e apresentação -->
+    <section class="jumbotron text-center corPrimaria">
+
+        <div class="container">
+            <img class="foto-perfil" src="https://i.ibb.co/PmkxZvF/IMG-20210222-225728386-3-Copia.jpg" alt="IMG-20210222-225728386-3-Copia" alt="">
+            <h1 class="jumbotron-heading textoBranco">Lucas William Pettinelli</h1>
+            <p class="lead textoBranco">Desenvolvedor - Engenheiro de Software - Tecnologia da Informação</p>
+            <p>
+                <a href="#contato" class="btn btn-dark my-2 ">Contato</a>
+
+                <!-- Area de Icones-->
+            </p>
+            <a href="https://www.linkedin.com/in/lucas-pettinelli/"><i class="textoBranco icones fab fa-linkedin"></i></a>
+            <a href="https://github.com/pettinelli1202"><i class="textoBranco icones fab fa-github"></i></a>
+            <a href="https://www.instagram.com/lucxs.willixm/"><i class="textoBranco icones fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <!-- Area de projeto I-->
+    <div class="album py-5 bg-light" id="projetos">
+        <div class="container">
+            <h2 class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="https://i.ibb.co/R9SXPzP/38bc93498989a9ca5ed9fa0b19324640.jpg"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Esse projeto desenvolvi usando tecnologias do flipcard que realiza um giro sobre o elemento com cursor do mouse.
+                            </p>
+                            <ul>
+                                <li> Html</li>
+                                <li> Css</li>
+
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/pettinelli1202/Yugioh-FlipCard"><button type="button" class="btn btn-sm
+                                        btn-outline-info">Ver o Projeto</button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Area do projeto II-->
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="https://i.ibb.co/j5zNwq3/Youtube-covers-2022-04-18-T233156-000.png"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Esse projeto desenvolvi usando as tecnologias da biblioteca tkinter e datetime, realizando uma aplicação de um relógio digital.</p>
+                            <ul>
+                                <li> Python</li>
+
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/pettinelli1202/RelogioPython"><button type="button" class="btn btn-sm 
+                                        btn-outline-info">Ver o Projeto</button></a>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="https://i.ibb.co/C2pPGMs/calc-2.png" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Esse projeto desenvolvi usando as tecnologias da biblioteca tkinter, junto do acesso ao widgets temáticos..</p>
+                            <ul>
+                                <li> Python</li>
+
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/pettinelli1202/Calculadora-Ttk"><button type="button" class="btn btn-sm 
+                                        btn-outline-info">Ver o Projeto</button></a>
+
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="https://i.ibb.co/yphc96g/as.png" data-holder-rendered="true">
+
+                        <div class="card-body">
+                            <p class="card-text">Esse projeto desenvolvi usando as tecnologias da biblioteca A, B, C e D.</p>
+                            <ul>
+                                <li> Html</li>
+                                <li> Css</li>
+                                <li> Bootstrap</li>
+
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href=""><button type="button" class="btn btn-sm 
+                                        btn-outline-info">Ver o Projeto</button></a>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim da area de projetos-->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Sobre mim-->
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+            <p class="lead textoBranco"> Olá, eu me chamo Lucas. Atualmente sou acadêmico no curso de engenharia de software e morador da região metropolitana de Porto Alegre-RS. Para começar, sou entusiasta em desenvolver pesquisa, questionamentos, criatividades com tecnologia,
+                artes e ecologia. Comecei minha vida profissional na área de logística e estoque aos 16 anos, após alguns anos empreendi minha empresa na área de artes. Concluo que atualmente, venho me dedicando e realizando pesquisas, atividades e levantamento
+                de dados para aprimorar minhas habilidades na área da tecnologia.
+            </p>
+        </div>
+    </section>
+
+    <!-- Area de Depoimentos-->
+    <section>
+        <section class="jumbotron text-center" style="background-color: white !important" id="depoimentos">
+            <div class="container">
+                <h2 class="jumbotron-heading text-center titulosVerdes">
+                    Depoimentos
+                </h2>
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">O que ela diz sobre você.</p>
+                    <footer class="blockquote-footer">Cargo da pessoa. <cite title="Source Title">Onde ela trabalha.</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Area de contato-->
+        <section class='corPrimaria'>
+            <div>
+                <div class="container-fluid" id="contato">
+                    <h3 style="padding-top:60px" class="text-center titulosBrancos">Disponivel para oportunidades</h3>
+                    <a href="gmail.pettinellilucas@gmail.com">
+                        <h4 style="padding-bottom:60px; margin-bottom: 0px;" class="text-center">👉E-mail👈</h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--Area do Footer-->
+        <footer class="text-center corSecundaria textoFooter">
+            <p class=" textoBranco">Site desenvolvido por Lucas William - 2022</p>
+        </footer>
+</body>
+
+</html>
